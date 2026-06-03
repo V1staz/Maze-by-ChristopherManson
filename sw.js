@@ -1,4 +1,4 @@
-const CACHE = 'maze-v4';
+const CACHE = 'maze-v5';
 const ASSETS = [
   'cover.html', 'index.html', 'directions.html', 'prologue.html', 'contest.html',
   'css/maze.css', 'css/bootstrap.min.css',

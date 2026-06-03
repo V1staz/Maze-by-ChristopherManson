@@ -163,12 +163,13 @@ body {
   align-items: center;
   justify-content: center;
   min-width: 0;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .room-image img {
   display: block;
-  max-width: 100%;
+  flex-shrink: 0;
   box-shadow: 0 2px 16px rgba(0,0,0,0.12);
   border-radius: 2px;
 }
@@ -266,10 +267,11 @@ body {
   }
   .room-image {
     padding: 0 1rem 1.5rem;
+    overflow-x: auto;
   }
   .room-image img {
     display: block;
-    max-width: 100%;
+    flex-shrink: 0;
   }
   .bottom-page-links {
     font-size: 0.75em;
