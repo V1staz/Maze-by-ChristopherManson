@@ -1,0 +1,17 @@
+{
+  "name": "Maze: Solve the World's Most Challenging Puzzle",
+  "short_name": "Maze",
+  "description": "Web version of Christopher Manson's 1985 book",
+  "start_url": "cover.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#e8d9a8",
+  "theme_color": "#1a1410",
+  "icons": [
+    {
+      "src": "images/cover.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}

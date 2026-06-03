@@ -1,2 +1,5 @@
 .DS_Store
 Maze - Solve the Worlds Most Challenging Puzzle - C.Manson (1985).pdf (Christopher Manson) (Z-Library).pdf
+build/
+dist/
+*.spec

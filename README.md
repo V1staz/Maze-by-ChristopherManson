@@ -1,8 +1,41 @@
-# Maze by ChristopherMason
-Website version of Christopher Manson's 1985 book, Maze: Solve the World's Most Challenging Puzzle
+# Maze by Christopher Manson
 
-The website is based on  [https://inventwithpython.com/mazewebsite/](https://inventwithpython.com/mazewebsite/) by Asweigart
+Website version of Christopher Manson's 1985 book, *Maze: Solve the World's Most Challenging Puzzle*.
 
-If you want to download a copy of the maze website to play offline on your computer, click the green Code button on this GitHub page and then click Download ZIP. Unpack the zip file on your computer (you only need the mazewebsite folder, you can delete the .gitignore, and README.md) and then open the mazewebsite/index.html file.
+The website is based on [inventwithpython.com/mazewebsite](https://inventwithpython.com/mazewebsite/) by Al Sweigart.
+
+## Play online
+
+**[v1staz.github.io/Maze-by-ChristopherManson/](https://v1staz.github.io/Maze-by-ChristopherManson/)**
+
+## How to play offline
+
+### Option 1 — Double-click
+
+Open `cover.html` directly in your browser.
+
+### Option 2 — Launch script
+
+- **Windows**: double-click `launch.bat`
+- **Mac / Linux**: run `./launch.sh`
+
+### Option 3 — Local server
+
+```bash
+python launcher.py
+```
+
+Starts a local HTTP server and opens the browser automatically.
+
+### Option 4 — Build standalone EXE
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --add-data ".:." --name Maze launcher.py
+```
+
+The resulting `dist/Maze.exe` (or `dist/Maze` on Linux) is a single self-contained executable.
+
+---
 
 This unofficial website is not affiliated with Christopher Manson or Henry Holt and Company.
